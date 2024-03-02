@@ -17,4 +17,4 @@ This Bash script automates the generation and execution of multiple simulation c
 To use the script, simply execute it from the command line providing the number of cases as an argument. For example:
 
 ```bash
-$ ./script.sh 5
+$ ./start_simulation.sh 5

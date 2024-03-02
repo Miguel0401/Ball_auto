@@ -1,7 +1,7 @@
 #!/bin/bash
 #Miguel Rosas
 
-Re1=6000
+Re1=1000
 Re2=2300
 Re3=3000
 Re4=4000

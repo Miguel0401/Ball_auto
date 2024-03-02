@@ -110,8 +110,8 @@ plotOverLine1 = PlotOverLine(registrationName="PlotOverLine1", Input=case_1vtmse
 plotOverLine1.Point2 = [8.0, 5.0, 0.10000000149011612]
 
 # Properties modified on plotOverLine1
-plotOverLine1.Point1 = [0.0, 3, 0.05]
-plotOverLine1.Point2 = [8.0, 3, 0.05]
+plotOverLine1.Point1 = [0.0, 0.3, 0.05]
+plotOverLine1.Point2 = [1.5, 0.3, 0.05]
 
 # show data in view
 plotOverLine1Display = Show(plotOverLine1, renderView1, "GeometryRepresentation")

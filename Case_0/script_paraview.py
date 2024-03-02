@@ -122,9 +122,10 @@ layout1 = GetLayout()
 layout1.SetSize(1920, 1080)
 
 # current camera placement for renderView1
-renderView1.CameraPosition = [4.0, 2.5, 15.112872637897196]
-renderView1.CameraFocalPoint = [4.0, 2.5, 0.05000000074505806]
-renderView1.CameraParallelScale = 4.7172555580628135
+renderView1.CameraPosition = [0.75, 0.25, 3.059586751641458]
+renderView1.CameraFocalPoint = [0.75, 0.25, 0.004999999888241291]
+renderView1.CameraViewAngle = 21.32675438596491
+renderView1.CameraParallelScale = 0.7905852262715781
 
 # save animation
 SaveAnimation('/home/miguel/Desktop/OpenFOAM_Proyects/ball_auto/Case_$i/animation_case_$i.ogv', renderView1, ImageResolution=[1920, 1080],

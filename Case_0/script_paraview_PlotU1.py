@@ -13,7 +13,7 @@ paraview.simple._DisableFirstRenderCameraReset()
 case_1vtmseries = XMLMultiBlockDataReader(
     registrationName="Case_$i.vtm.series",
     FileName=[
-        "/home/miguel/Desktop/OpenFOAM_Proyects/ball_auto/Case_$i/VTK/Case_$i.vtm.series"
+        "/home/usrof1/Desktop/ball_auto/Case_$i/VTK/Case_$i.vtm.series"
     ],
 )
 case_1vtmseries.CellArrayStatus = ["p", "U"]
@@ -562,10 +562,10 @@ layout1.SetSize(1612, 808)
 
 # save animation
 SaveAnimation(
-    "/home/miguel/Desktop/OpenFOAM_Proyects/ball_auto/Case_$i/animation_PlotU1_case_$i.ogv",
+    "/home/usrof1/Desktop/ball_auto/Case_$i/animation_PlotU1_case_$i.ogv",
     lineChartView1,
     ImageResolution=[1920, 1080],
-    FrameRate=100,
+    FrameRate=20,
     FrameWindow=[0, 1000],
 )
 

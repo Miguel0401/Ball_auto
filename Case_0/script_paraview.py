@@ -9,7 +9,7 @@ from paraview.simple import *
 paraview.simple._DisableFirstRenderCameraReset()
 
 # create a new 'XML MultiBlock Data Reader'
-case_$ivtmseries = XMLMultiBlockDataReader(registrationName='Case_$i.vtm.series', FileName=['/home/miguel/Desktop/OpenFOAM_Proyects/ball_auto/Case_$i/VTK/Case_$i.vtm.series'])
+case_$ivtmseries = XMLMultiBlockDataReader(registrationName='Case_$i.vtm.series', FileName=['/home/usrof1/Desktop/ball_auto/Case_$i/VTK/Case_$i.vtm.series'])
 case_$ivtmseries.CellArrayStatus = ['p', 'U']
 case_$ivtmseries.PointArrayStatus = ['p', 'U']
 
@@ -128,8 +128,8 @@ renderView1.CameraViewAngle = 21.32675438596491
 renderView1.CameraParallelScale = 0.7905852262715781
 
 # save animation
-SaveAnimation('/home/miguel/Desktop/OpenFOAM_Proyects/ball_auto/Case_$i/animation_case_$i.ogv', renderView1, ImageResolution=[1920, 1080],
-    FrameRate=100,
+SaveAnimation('/home/usrof1/Desktop/ball_auto/Case_$i/animation_case_$i.ogv', renderView1, ImageResolution=[1920, 1080],
+    FrameRate=20,
     FrameWindow=[0, 1000])
 
 #================================================================

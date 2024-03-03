@@ -1,15 +1,15 @@
 #!/bin/bash
 #Miguel Rosas
 
-Re1=1000
-Re2=2300
-Re3=3000
-Re4=4000
-Re5=5000
-Re6=6000
+Re1=10
+Re2=20
+Re3=40
+Re4=50
+Re5=100
+Re6=200
 
 nu=0.00001
-d=0.5
+d=0.05
 
 # Calcular k utilizando bc para manejar decimales
 k=$(echo "$nu / $d" | bc -l)
